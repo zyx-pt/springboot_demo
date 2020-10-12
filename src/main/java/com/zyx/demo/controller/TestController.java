@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 描述：用于相关测试
  * </pre>
  *
- * @author zhengyx
+ * @author zhengyongxian
  */
 
 @RestController
@@ -66,6 +66,7 @@ public class TestController {
         System.out.println(mailProperties.getUsername());
         return "Success!";
     }
+
 
 
 }
