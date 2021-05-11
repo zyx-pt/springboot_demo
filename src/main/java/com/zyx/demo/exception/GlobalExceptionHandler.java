@@ -31,7 +31,7 @@ public class GlobalExceptionHandler {
     /**
      * @Description: 拦截所有异常, 这里只是为了演示，一般情况下一个方法特定处理一种异常
      *
-     * @Author: zhengyongxina
+     * @Author: zhengyongxian
      * @Date: 2020/10/10 11:12
      * @param e
      * @return: org.springframework.http.ResponseEntity<com.zyx.demo.exception.ErrorResponse>

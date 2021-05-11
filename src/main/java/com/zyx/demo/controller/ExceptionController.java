@@ -35,7 +35,7 @@ public class ExceptionController {
     /**
      * @Description: 通过 ResponseStatus注解简单处理异常
      * 一般我们不会这样做，因为添加了额外的异常类ResourceNotFoundException2
-     * @Author: zhengyongxina
+     * @Author: zhengyongxian
      * @Date: 2020/10/10 17:34
      * @param
      * @return: void
@@ -48,7 +48,7 @@ public class ExceptionController {
     /**
      * @Description: 3. 通过ResponseStatusException处理异常
      *
-     * @Author: zhengyongxina
+     * @Author: zhengyongxian
      * @Date: 2020/10/10 17:36
      * @param
      * @return: void

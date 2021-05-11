@@ -27,7 +27,7 @@ public class DistributedLockController {
     /**
      * @Description: Redisson实现扣减库存
      *
-     * @Author: zhengyongxina
+     * @Author: zhengyongxian
      * @Date: 2021/1/6 9:37
      * @param
      * @return: java.lang.String
@@ -56,7 +56,7 @@ public class DistributedLockController {
     /**
      * @Description: Redis实现扣减库存
      *
-     * @Author: zhengyongxina
+     * @Author: zhengyongxian
      * @Date: 2021/1/6 9:37
      * @param
      * @return: java.lang.String
