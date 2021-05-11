@@ -36,8 +36,26 @@ my-profile:
   name: zhengyx
   email: zhengyx@163.com
 
+#Redis
+spring.redis.host: 127.0.0.1
+spring.redis.port: 6379
+#redis的数据库号
+spring.redis.database: 4
+spring.redis.timeout:  30000ms
+spring.redis.jedis.pool.max-active: 200
+spring.redis.jedis.pool.max-idle: 0
+spring.redis.lettuce.pool.max-idle: 5
+spring.redis.jedis.pool.max-wait: 20000ms
 
-
-
+#1号库
+spring.redis.redis-onedb.database: 0
+spring.redis.redis-onedb.hostName: 127.0.0.1
+spring.redis.redis-onedb.port: 6379
+spring.redis.redis-onedb.timeout: 5000
+#4号库
+spring.redis.redis-fourdb.database: 4
+spring.redis.redis-fourdb.hostName: 192.168.90.42
+spring.redis.redis-fourdb.port: 9110
+spring.redis.redis-fourdb.timeout: 5000
 
 
